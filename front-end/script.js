@@ -10,8 +10,9 @@ fetch("http://127.0.0.1:8000/produtos")
         card.innerHTML += `
         <h3>${produto.nome}</h3>
         <p>${produto.descricao}</p>
+        <img src="${produto.imagem}">g
         <strong>R$ ${produto.preco}</strong>
-        <img src="${produto.imagem}">
+        
       `
       card.setAttribute('class','card')
       contairner.appendChild(card)

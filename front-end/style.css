@@ -21,7 +21,7 @@ header{
   height: auto;
   display: flex;
   flex-direction: column;
-  margin: 100px;
+  margin: 110px;
   
 }
 .titulo{
@@ -31,7 +31,7 @@ header{
 }
 #cards{
      display: grid;
-     grid-template-columns: repeat(2, 1fr);
+     grid-template-columns: repeat(4, 1fr);
      gap: 20px;
 }
 
@@ -40,6 +40,7 @@ header{
   border-radius: 12px;
   padding: 15px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  
  
 }
 
@@ -50,11 +51,12 @@ header{
   height: 200px;
   object-fit: cover;
   border-radius: 8px;
+  margin-top: 10PX;
 }
 
 .card h3 {
   margin: 10px 0 5px;
-  font-size: 18px;
+  font-size: 22px;
 }
 
 .card p {
@@ -65,6 +67,7 @@ header{
 .card strong {
   display: block;
   margin-top: 10px;
-  font-size: 16px;
+  font-size: 26px;
   color: #2ecc71;
+  
 }
